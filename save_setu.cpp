@@ -17,8 +17,10 @@ int main() {
             cin >> k;
             balance += k;
         }
-		else cout << balance << endl;
+	else{
+		cout << balance << endl;
 	}
+    }
   
     return 0;
 }
