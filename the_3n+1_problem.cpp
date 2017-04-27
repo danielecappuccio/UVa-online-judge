@@ -1,7 +1,5 @@
 #include <cstdio>
 #include <algorithm>
-
-#define long long LL
  
 using namespace std;
  
