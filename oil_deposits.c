@@ -1,23 +1,13 @@
+/*
+ * Competitive Programming
+ *
+ * @author        Daniele Cappuccio
+ * @link          (https://github.com/daniele-cappuccio/UVa-online-judge)
+ * @license       MIT License (https://opensource.org/licenses/MIT)
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
-
-/*
-1 1
-*
-3 5
-*@*@*
-**@**
-*@*@*
-1 8
-@@****@*
-5 5
-****@
-*@@*@
-*@**@
-@@@*@
-@@**@
-0 0 
-*/
 
 int _is_in_matrix(int i, int j, int rows, int cols){
 	if (i<0 || j<0) return 0;
@@ -61,7 +51,7 @@ int main(){
 		for (i=0; i<rows; i++){
 			for (j=0; j<cols; j++){
 				if (matrix[i*cols+j] == '@'){
-					/*printf("Oil deposit acquired in position: %d %d\n", i, j);*/
+					/* printf("Oil deposit acquired in position: %d %d\n", i, j); */
 					res++;
 					_remove_adjacent(&matrix, rows, cols, i, j);
 				}
