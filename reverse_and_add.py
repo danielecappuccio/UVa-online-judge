@@ -1,9 +1,10 @@
- #
- # Competitive Programming
- #
- # @author        Daniele Cappuccio
- # @link          (https://github.com/daniele-cappuccio/UVa-online-judge)
- #
+#
+# Competitive Programming
+#
+# @author        Daniele Cappuccio
+# @link          (https://github.com/daniele-cappuccio/UVa-online-judge)
+# @license       MIT License (https://opensource.org/licenses/MIT)
+#
 
 def is_palindrome(s):
     for i in range(int(len(s)/2)):
