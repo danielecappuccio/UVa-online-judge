@@ -1,9 +1,10 @@
- #
- # Competitive Programming
- #
- # @author        Daniele Cappuccio
- # @link          (https://github.com/daniele-cappuccio/UVa-online-judge)
- #
+#
+# Competitive Programming
+#
+# @author        Daniele Cappuccio
+# @link          (https://github.com/daniele-cappuccio/UVa-online-judge)
+# @license       MIT License (https://opensource.org/licenses/MIT)
+#
 
 while True:
     line = input()

@@ -1,3 +1,11 @@
+/*
+ * Competitive Programming
+ *
+ * @author        Daniele Cappuccio
+ * @link          (https://github.com/daniele-cappuccio/UVa-online-judge)
+ * @license       MIT License (https://opensource.org/licenses/MIT)
+ */
+
 #include <iostream>
 #include <string>
 
@@ -5,7 +13,7 @@ using namespace std;
 
 int main() {
 
-    ios_base::sync_with_stdio(false);
+    ios_base::sync_with_stdio(false); //faster I/O
 
     int N, count;
     string l;
