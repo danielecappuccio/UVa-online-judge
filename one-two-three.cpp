@@ -13,7 +13,7 @@ using namespace std;
 
 int main() {
 
-    ios_base::sync_with_stdio(false);
+    ios_base::sync_with_stdio(false); //faster I/O
 
     int N, count;
     string l;
