@@ -13,7 +13,7 @@ using namespace std;
 
 int main(){
 
-    ios::sync_with_stdio(false);
+    ios::sync_with_stdio(false); //faster I/O
     int T, t, t1, t2, fin, attendance, total;
     char grade;
     cin >> T;
