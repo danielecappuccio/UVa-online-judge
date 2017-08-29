@@ -1,3 +1,11 @@
+#
+# Competitive Programming
+#
+# @author        Daniele Cappuccio
+# @link          (https://github.com/daniele-cappuccio/UVa-online-judge)
+# @license       MIT License (https://opensource.org/licenses/MIT)
+#
+
 def subsequence(s, t):
     for c in s:
         if c not in t:
