@@ -13,7 +13,8 @@ using namespace std;
 
 int main(){
 
-    ios::sync_with_stdio(false);
+    ios::sync_with_stdio(false); //faster I/O
+    
     int N; long long int res;
 
     while (scanf("%d", &N) == 1){
