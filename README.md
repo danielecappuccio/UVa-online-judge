@@ -3,7 +3,7 @@ Solutions to problems from the well-known site of competitive programming, in wh
 
 My uHunt statistics: http://uhunt.onlinejudge.org/id/895169
 
-# Top X goals
+# World ranklist
 *   **Top 15'000**: July 11, 2017
 *   **Top 10'000**: August 16, 2017
 *   **Top 7'500**: August 29, 2017
