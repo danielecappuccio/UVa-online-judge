@@ -7,31 +7,36 @@
  */
 
 #include <iostream>
+#include <cstdlib>
 
-#define DEBUG 1
+#define DEBUG 0
 
 using namespace std;
 
 int main(){
 
     ios::sync_with_stdio(false); //faster I/O
-    unsigned long long int Z, I, M, L;
+
+    long long int Z, I, M, L;
     int m, ord, t = 1;
     bool found;
 
     cin >> Z >> I >> M >> L;
     do {
 
-        bool generated[M];
-        int order[M]; ord = 0;
+        bool* generated = (bool*)malloc(M * sizeof(bool));
+        int* order = (int*)malloc(M * sizeof(int)); 
+        ord = 0;
 
         for (m = 0; m < M; ++m){
-            generated[M] = false;
-            order[M] = -1;
+            generated[m] = false;
+            order[m] = -1;
         }
 
         generated[L] = true;
         order[L] = ord++;
+
+        if (DEBUG) cout << "[DEBUG] L = " << L << " --- order: " << ord << endl;
 
         found = false;
         while (!found){
@@ -39,7 +44,7 @@ int main(){
             if (!generated[L]){
                 generated[L] = true;
                 order[L] = ord++;
-                if (DEBUG) cout << "[DEBUG] L = " << L << endl;
+                if (DEBUG) cout << "[DEBUG] L = " << L << " --- order: " << ord << endl;
             }
             else {
                 found = true;
