@@ -32,4 +32,4 @@ else:
 starter = 0
 for j in range(times):
     starter = sing_the_song(starter, N, people, words) # index of the person who starts, no. of people,
-        # list of people, words
+                                                       # list of people, words
