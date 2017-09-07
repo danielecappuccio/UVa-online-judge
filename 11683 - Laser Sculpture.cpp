@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
 
-    ios_base::sync_with_stdio(false); // faster I/O
+    ios_base::sync_with_stdio(false); //faster I/O
 
     int A, C, height, max = 0, last = 0, cut, i;
     cin >> A;
@@ -22,7 +22,7 @@ int main() {
 
         cut = 0;
         last = A;
-        
+
         for (i = 0; i < C; ++i) {
             cin >> height;
             if (height >= last) {
